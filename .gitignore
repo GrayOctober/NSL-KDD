@@ -1,0 +1,31 @@
+# Python virtual environment
+venv/
+.venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Jupyter autosave checkpoints
+.ipynb_checkpoints/
+
+# Secrets (API keys, passwords) - never commit these
+.env
+
+# Datasets and large files
+data/
+*.csv
+*.parquet
+
+# Trained models
+*.pkl
+*.joblib
+*.pt
+
+# MLflow experiment logs (Phase 5)
+mlruns/
+
+# Editor and OS clutter
+.vscode/
+.idea/
+.DS_Store
